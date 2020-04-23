@@ -19,3 +19,5 @@ T góp mấy ý như này ae coi r góp thêm nhiều ý khác nhé
 9. Mấy framework khác thì chắc mình hạn chế tại thầy khuyến khích học React, mỗi cái này thôi đã mệt mỏi r :3
 
 10. jquery, bootstrap, font awesome,... thì các abe cứ dùng nếu cần
+
+11. Dùng CSS làm luôn phần responsive cho Mobile với Tablet cho mỗi page luôn nhé các abe
