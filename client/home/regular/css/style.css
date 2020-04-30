@@ -1,0 +1,610 @@
+html {
+    -webkit-locale: "vi";
+    box-sizing: border-box;
+    line-height: 1.15;
+    text-size-adjust: 100%;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: rgb(244, 244, 244);
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header */
+.bdYVSt {
+    line-height: 1.15;
+    text-size-adjust: 100%;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 999;
+    background: rgb(24, 158, 255);
+}
+
+/* banner */
+.bemjee {
+    min-height: 50px;
+}
+
+.top-bar-wrap {
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 50px;
+    background-image: url('https://salt.tikicdn.com/ts/banner/12/1c/b5/47b635f0b9bc528ef539c7fe60e09988.png'),
+        linear-gradient(to right,
+            rgb(42, 61, 79) 40%,
+            rgb(42, 61, 79) 50%,
+            rgb(42, 61, 79) 60%);
+}
+
+/* promotion main */
+.KdVZK {
+    background-color: rgb(29, 113, 171);
+}
+
+.itgICN {
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.kqIazv {
+    display: flex;
+    height: 28px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.fJJaNZ {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    line-height: 26px;
+    display: inline-flex;
+    letter-spacing: 0.5px;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 0px 0px 25px;
+    text-decoration: none;
+}
+
+.jzCyqy {
+    margin-right: 4px;
+}
+
+.xBvqJ {
+    margin-right: 4px;
+    color: rgb(253, 216, 53);
+    font-size: 18px;
+}
+
+.ijsjHT {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    line-height: 26px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 0px 0px 25px;
+}
+
+.ijsjHT a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+/* container */
+
+.iUPLQS {
+    display: flex;
+    height: 76px;
+    position: relative;
+    z-index: 2;
+    padding: 20px 0px 16px;
+}
+
+    /* container left */
+.iXVTaA {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+    /* logo */
+.cBsnUc {
+    display: flex;
+    align-items: flex-start;
+}
+
+    /* search bar */
+.eqgiix {
+    margin-left: 10px;
+    flex: 1 1 0%;
+}
+
+.kGHRjb {
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-shadow: rgba(98, 98, 98, 0.5) 0px 1px 2px 0px;
+}
+
+.eiGtjR {
+    font-size: 13px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px 8px;
+    border-radius: 4px 0px 0px 4px;
+    flex: 1 1 0%;
+    outline: none;
+}
+/* search button */
+.dVzStw {
+    cursor: pointer;
+    height: 40px;
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+    font-weight: 400;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px 11px 0px 15px;
+    background: rgb(237, 238, 242);
+    border-radius: 0px 4px 4px 0px;
+    outline: none;
+}
+
+.iRtcvE {
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.28) 0px 6px 12px 0px;
+    display: none;
+    background: rgb(255, 255, 255);
+    list-style: none;
+    border-radius: 0px 0px 3px 3px;
+}
+
+    /* container right */
+.fRWDhU {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+    /* theo dõi đơn hàng */
+.hMJbVA {
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: relative;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.9px;
+    margin: 0px 0px 0px 25px;
+}
+
+.hMJbVA .tikicon{
+    margin-right: 12px;
+}
+
+.gflNjp {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+    /* đăng nhập */
+.kgAKwJ {
+    display: none;
+    width: auto;
+    min-width: 196px;
+    z-index: 15;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 6px 12px 0px;
+    position: absolute;
+    top: 45px;
+    left: calc(50% + 10px);
+    transform: translateX(-50%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+    border-image: initial;
+    background: rgb(255, 255, 255);
+    list-style: none;
+    margin: 0px;
+    padding: 10px 0px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+    /* giỏ hàng */
+.kOuFza {
+    position: relative;
+    display: block;
+}
+
+.bHypCd {
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    position: relative;
+    line-height: 14px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+    font-size: 13px;
+    vertical-align: middle;
+    margin: 0px 0px 0px 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    padding: 8px 11px;
+    border-radius: 4px;
+}
+
+/* bottom */
+.iVQqfy {
+    position: relative;
+    z-index: 1;
+}
+
+.fMfjVb {
+    cursor: pointer;
+    display: flex;
+    align-self: stretch;
+    width: 229px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+.fMfjVb .Menu-button {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.6px;
+}
+
+.fMfjVb .Menu-icon {
+    margin-right: 8px;
+}
+
+    /* location */
+.hkSHkq {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: stretch;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.hkSHkq a {
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.hkSHkq .tikicon {
+    margin-right: 9px;
+}
+
+.hkSHkq span {
+    display: inline-block;
+    max-height: 32px;
+    width: 180px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    overflow: hidden;
+}
+
+/* sản phẩm đã xem */
+.fBpWPk {
+    display: flex;
+    align-self: stretch;
+}
+
+.yKWxU {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: stretch;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+}
+
+.hcTjwK {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: stretch;
+    padding-bottom: 10px;
+}
+
+/* combo 3 right */
+.gnJrDC {
+    display: flex;
+    color: rgb(255, 255, 255);
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+}
+
+.gnJrDC .tikicon {
+    margin-right: 9px;
+}
+
+/* main */
+/* section 1 */
+/* danh sách sản phẩm */
+.hWakax {
+    position: relative;
+    width: 244px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+    /* LIST */
+li:hover{
+    background-color:#189eff ;
+}
+
+
+.krWJFU:first-child {
+    border-top: 1px solid rgb(225, 225, 225);
+    border-radius: 4px 0px 0px;
+}
+
+.krWJFU {
+    background-color: rgb(255, 255, 255);
+    height: calc(33.9375px);
+    border-left: 1px solid rgb(225, 225, 225);
+    border-right: 1px solid rgb(225, 225, 225);
+}
+
+.efuIbv {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 2;
+    color: rgb(68, 68, 68);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    height: 100%;
+    text-decoration: none;
+}
+
+.efuIbv .icon-wrap {
+    width: 39px;
+    text-align: center;
+}
+
+.efuIbv .icon-wrap .tikicon {
+    margin: auto;
+}
+
+.krWJFU:last-child {
+    border-bottom: 1px solid rgb(225, 225, 225);
+    border-radius: 0px 0px 0px 4px;
+}
+
+.efuIbv .tikicon {
+    margin-top: -3px;
+    margin-left: 4px;
+}
+
+.efuIbv .tikicon.icon-hot {
+    margin-top: -6px;
+    margin-left: 1px;
+}
+
+/* banner */
+.iuasrS {
+    display: flex;
+    flex-wrap: wrap;
+    width: 996px;
+    border-radius: 0px 4px 4px 0px;
+    overflow: hidden;
+    background: rgb(148, 191, 255);
+}
+
+/* left */
+.gRDgYd {
+    display: flex;
+    flex-wrap: wrap;
+    width: 584px;
+}
+    /* left top */
+.iWbZiF {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 362px;
+}
+
+.hVQkDu {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(148, 191, 255);
+    overflow: hidden;
+}
+    /* left bottom */
+.hpOgho {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+        /* left */
+.cEiSUm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 181px;
+    background: rgb(148, 191, 255);
+}
+
+.hhwHbz {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 292px;
+    height: 181px;
+}
+
+.hhwHbz.loaded .image {
+    display: inline-block;
+}
+
+.hhwHbz .image {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+    vertical-align: middle;
+}
+        /* right */
+.cwnFBY{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 181px;
+    background: rgb(185, 213, 255);
+}
+
+/* right */
+
+.kvcDZQ {
+    display: flex;
+    flex-wrap: wrap;
+    width: 412px;
+}
+.ikoOoZ {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 206px;
+    height: 181px;
+}
+
+.ikoOoZ.loaded .image {
+    display: inline-block;
+}
+
+.ikoOoZ .image {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+    vertical-align: middle;
+}
+
+/* section 2 */
+.kayPBa {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.kayPBa > .header {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.kayPBa > .header div {
+    margin-left: 10px;
+}
+
+.kayPBa > .header .title.deal {
+    color: rgb(255, 61, 0);
+}
+
+.kayPBa > .header .description {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    margin: 6px 0px 0px;
+}
