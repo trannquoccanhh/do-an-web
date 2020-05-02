@@ -852,7 +852,7 @@ li:hover{
     cursor: pointer;
     display: inline-block;
     width: 200px;
-    color: rgb(24, 158, 255);
+    color: rgb(24, 158, 255) !important;
     font-size: 13px;
     text-align: center;
     margin: 20px 0px;
@@ -864,6 +864,11 @@ li:hover{
     border-image: initial;
 }
 
+.fVhRbQ:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(24, 158, 255);
+    border-color: rgb(24, 158, 255);
+}
 /* section 3 */
 .dJLcGq {
     margin-top: 40px;
