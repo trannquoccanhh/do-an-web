@@ -1,14 +1,16 @@
 html,
 body {
-  margin: 0;
   font-family: arial, sans-serif;
   min-width: 900px;
   line-height: 14px;
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -18,14 +20,13 @@ a {
 
 a:hover {
   text-decoration: none;
- 
+
 }
 
 #banner {
   background: #F6F6F6 url('../img/banner.jpg') no-repeat top left;
   height: 55px;
   background-size: 1920px;
-  min-width: 1000px;
   display: block;
 }
 
@@ -66,7 +67,7 @@ header {
   border: 1px solid #666;
 }
 
-#nav-hamburger-menu:hover{
+#nav-hamburger-menu:hover {
   border: 1px solid #fff;
   border-radius: 3px;
 }
@@ -121,10 +122,10 @@ header {
   font-size: 20px;
   font-weight: 600;
   padding: 10px;
-  
+
 }
 
-#nav-holiday a:hover{
+#nav-holiday a:hover {
   border: 1px solid #fff;
   border-radius: 3px;
 }
@@ -287,18 +288,6 @@ header {
   padding: 4px 12px 0 15px;
 }
 
-
-#nav-main .nav-fill a {
-  font-weight: 500;
-  color: #ccc;
-  padding:8px
-}
-
-#nav-main .nav-fill a:hover {
-  border: 1px solid #fff;
-  border-radius: 3px;
-}
-
 #nav-main .nav-right {
   padding-right: 6px;
 }
@@ -320,11 +309,7 @@ header {
   font-weight: 700;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1560px;
-  }
-}
+
 
 #promo .col-lg-12 {
   padding: 0 22px 10px 22px;
@@ -385,6 +370,9 @@ h3 {
   padding: 15px;
   min-height: 578px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #products h2 {
@@ -392,7 +380,7 @@ h3 {
 }
 
 #products img {
-  max-width: 100%;
+  width: 100%;
 }
 
 #products .thumbnail {
@@ -433,9 +421,14 @@ h3 {
   width: 100%;
 }
 
+
+
+
 #products #amazon-basics img {
   max-width: 151px;
 }
+
+
 
 #products #dress img {
   max-width: 200px;
@@ -467,10 +460,11 @@ h3 {
   position: absolute;
   bottom: 0;
   border-top: 1px solid #e7e7e7;
-  width: 90%;
-  padding: 17px 0 17px;
+  width: 98%;
+  padding: 17px 73px;
   font-size: 13px;
   color: #555;
+  text-align: center;
 }
 
 footer a {
