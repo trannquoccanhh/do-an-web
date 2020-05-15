@@ -3,7 +3,7 @@
   font-display: fallback;
   font-weight: normal;
   font-style: normal;
-  src: url('../fonts/icomoon.ttf?e1dgso') format('truetype'),
+  src: url('/client/home/regular/fonts/icomoon.ttf?e1dgso') format('truetype'),
     url('../fonts/icomoon.woff?e1dgso') format('woff'),
     url('../fonts/icomoon.svg?e1dgso#icomoon') format('svg');
 }
