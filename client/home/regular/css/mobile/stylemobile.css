@@ -226,6 +226,10 @@ main{
     vertical-align: middle;
 }
 
+.BannerCarousel-Picture{
+    width: 351px;
+}
+
 .BannerCarousel .carousel img {
     display: inline-block;
     vertical-align: middle;

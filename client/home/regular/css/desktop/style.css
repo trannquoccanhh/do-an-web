@@ -54,10 +54,11 @@ h3{
     text-size-adjust: 100%;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     position: relative;
     z-index: 999;
     background: rgb(24, 158, 255);
+    width:max-content;
 }
 
 /* banner */
