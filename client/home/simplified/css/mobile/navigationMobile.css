@@ -83,7 +83,7 @@
 }
 
 #hmenu-container #hmenu-canvas #hmenu-customer-profile {
-    background-color: #232f3e;
+    background-color: #189EFF;
     height: 50px;
     align-items: center
 }
@@ -134,7 +134,7 @@
 }
 
 #hmenu-container #hmenu-canvas #hmenu-top-section {
-    background-color: #232f3e;
+    background-color: #189EFF;
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
@@ -608,7 +608,7 @@ a.nav-a {
     height: 50px;
     padding-top: 12px;
     padding-left: 10px;
-    background-color: #232F3E
+    background-color: #189EFF
 }
 
 .nav-afap-search .nav-sprite.nav-afap-search-icon {
@@ -1050,7 +1050,7 @@ a.nav-a {
 .nav-ftr-batmobile #nav-ftr-links {
     margin: 0;
     padding: 0 20px 25px 20px;
-    background-color: #232F3E;
+    background-color: #189EFF;
     border: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -1309,7 +1309,7 @@ a.nav-a {
 }
 
 .nav-ftr-batmobile .nav-searchbar {
-    background: #232F3E
+    background: #189EFF
 }
 
 .nav-search-submit {
@@ -1497,7 +1497,7 @@ a.nav-a {
 
 .nav-blueheaven #navbar .nav-searchbar-wrapper .nav-searchbar,.nav-blueheaven .nav-searchbar,.nav-ftr-batmobile #navbar .nav-searchbar-wrapper .nav-searchbar,.nav-ftr-batmobile .nav-searchbar {
     height: 50px;
-    background: #232f3e;
+    background: #189EFF;
     padding: 5px 10px 5px 10px
 }
 
@@ -1847,15 +1847,15 @@ a.nav-a {
 
 .nav-blueheaven #nav-logobar,.nav-ftr-batmobile #nav-logobar {
     height: 44px;
-    border-bottom: 1px solid #232f3e;
-    background-color: #232f3e;
-    background: #232f3e;
+    border-bottom: 1px solid #189EFF;
+    background-color: #2189EFF;
+    background: #189EFF;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF232F3E', endColorstr='#FF232F3E', GradientType=0 );
-    background: linear-gradient(to bottom,#232f3e,#232f3e);
-    background: -moz-linear-gradient(top,#232f3e,#232f3e);
-    background: -webkit-linear-gradient(top,#232f3e,#232f3e);
-    background: -o-linear-gradient(top,#232f3e,#232f3e);
-    background: -ms-linear-gradient(top,#232f3e,#232f3e)
+    background: linear-gradient(to bottom,#189EFF,#189EFF);
+    background: -moz-linear-gradient(top,#189EFF,#189EFF);
+    background: -webkit-linear-gradient(top,#189EFF,#189EFF);
+    background: -o-linear-gradient(top,#189EFF,#189EFF);
+    background: -ms-linear-gradient(top,#189EFF,#189EFF)
 }
 
 .nav-blueheaven #nav-greeting-name,.nav-ftr-batmobile #nav-greeting-name {
@@ -1943,7 +1943,7 @@ a.nav-a {
 }
 
 .nav-blueheaven #nav-gwbar,.nav-ftr-batmobile #nav-gwbar {
-    background: #232f3e;
+    background: #189EFF;
     border-bottom: 0;
     height: 42px
 }
@@ -3821,7 +3821,7 @@ body.lock-position {
 }
 
 .fixed-navbar #navbar.nav-t-gateway,.fixed-navbar #navbar.nav-t-search,.fixed-navbar #navbar.nav-t-standard {
-    background-color: #232f3e;
+    background-color: #189EFF;
     padding-top: 44px
 }
 
@@ -3920,7 +3920,7 @@ body.lock-position {
     width: 100%;
     overflow: hidden;
     display: block;
-    background: #232f3e;
+    background: #189EFF;
     border-bottom: 0;
     white-space: nowrap;
     z-index: 208
@@ -4819,7 +4819,7 @@ footer.nav-ftr-batmobile .icp-container .icp-touch-link {
 }
 
 .glow-toaster {
-    border-top: 1px solid #232f3e
+    border-top: 1px solid #189EFF
 }
 
 .a-ios .glow-toaster.glow-toaster-app {

@@ -1517,7 +1517,8 @@
     #nav-logo .nav-logo-link {
         clear: both;
         display: inline-block;
-        cursor: pointer
+        cursor: pointer;
+        padding-top:9px
     }
 
     #nav-logo .nav-logo-base {
@@ -6954,16 +6955,16 @@
     }
 
     #navbar.nav-bluebeacon {
-        background-color: #232f3e
+        background-color:#189EFF;
     }
 
     #navbar.nav-bluebeacon #nav-belt {
-        background-color:#131921
+        background-color:#189EFF;
     }
 
     #navbar.nav-bluebeacon #nav-main {
         background-image: none;
-        background-color: #232f3e
+        background-color: #189EFF
     }
 
     #navbar.nav-bluebeacon #nav-logo {
@@ -7008,7 +7009,7 @@
 
     #navbar.nav-bluebeacon #nav-tools .nav-line-1,
     #navbar.nav-bluebeacon #nav-xshop .nav-line-1 {
-        color: #ccc
+        color: #fff
     }
 
     #navbar.nav-bluebeacon #nav-cart-count,
@@ -7026,7 +7027,7 @@
     #navbar.nav-bluebeacon #nav-xshop .nav-a {
         padding: 7px 8px 7px 8px;
         margin: 1px 2px 12px 1px;
-        color: #ccc
+        color: #fff
     }
 
     #navbar.nav-bluebeacon #nav-xshop .nav-a:active,
@@ -7123,7 +7124,7 @@
     }
 
     #navbar.nav-bluebeacon #nav-search .nav-search-submit {
-        background-color: #febd69;
+        background-color: #EDEEF2;
         background-image: none;
         border: none;
         width: 45px
@@ -7136,7 +7137,7 @@
     }
 
     #navbar.nav-bluebeacon .nav-icon.nav-arrow {
-        border-top-color: #a7acb2
+        border-top-color: #fff
     }
 
     #navbar.nav-bluebeacon .nav-icon-flipped.nav-arrow {
