@@ -4,7 +4,7 @@
         .breadcrumb-wrap,
         .sidebar-wrap,
         .des {
-            display: none;
+            display: none !important;
         }
         .result-wrap {
             margin-top: 56px;

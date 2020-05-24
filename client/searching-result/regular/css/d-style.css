@@ -1020,3 +1020,28 @@
         margin-bottom: 7px !important;
     }
 } */
+@media (max-width:768px) {
+        .header-wrap,
+        .product-wrap .product-list .product-box-option,
+        .breadcrumb-wrap,
+        .sidebar-wrap,
+        .des {
+            display: none !important;
+        }
+        .result-wrap {
+            margin-top: 56px;
+        }
+        .product-wrap {
+            width: 100% !important;
+        }
+        html {
+            line-height: 1.15 !important;
+            text-size-adjust: 100% !important;
+        }
+        .header-mobile-wrap {
+            display: flex !important;
+        }
+        .ProductListFilter {
+            display: flex !important;
+        }
+    }
