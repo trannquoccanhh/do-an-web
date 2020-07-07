@@ -18,9 +18,9 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/sb-admin-2.min.css" rel="stylesheet" />
-
     <!-- Custom styles for this page -->
     <link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    
 </head>
 
 <body id="page-top">
@@ -54,7 +54,7 @@
 
             <!-- Nav Item - ManageProduct-->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#">
+                <a class="nav-link collapsed" href="./manageProduct.php">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Quản lý sản phẩm</span>
                 </a>
@@ -62,7 +62,7 @@
 
             <!-- Nav Item - Pages AddProduct -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#">
+                <a class="nav-link collapsed" href="addProduct.php">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Thêm sản phẩm mới</span>
                 </a>
